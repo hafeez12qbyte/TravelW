@@ -1,13 +1,54 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:wght@400;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   height: 100vh;
   width: 100%;
   background: url(assets/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+header {
+  font-family: "Cinzel", serif;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+header .logo{
+  font-size: 20px;
+  width: 15%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .nav{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .nav ul{
+  display: flex;
+}
+header .nav ul li{
+  list-style: none;
+  padding: 15px;
+}
+header .nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  color: #FFFFFF;
 }
