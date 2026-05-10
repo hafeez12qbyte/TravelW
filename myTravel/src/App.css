@@ -36,6 +36,9 @@ header .logo{
   align-items: center;
   justify-content: center;
 }
+header .logo h2{
+  cursor: pointer;
+}
 header .nav{
   width: 85%;
   display: flex;
@@ -51,7 +54,7 @@ header .nav ul li{
 }
 header .nav ul li a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
