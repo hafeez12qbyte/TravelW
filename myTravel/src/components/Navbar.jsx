@@ -1,7 +1,7 @@
 
 import { NavLink, useNavigate } from "react-router-dom"
 export default function Navbar() {
-  const navigate = useNavigate
+  const navigate = useNavigate()
   return (
     <>
       <header>
